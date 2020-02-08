@@ -7,6 +7,7 @@ Git es una herramienta genail, aquí se describe algunos comandos basicos
 - git status :Te muestra todos los archivos que fueron cambiados desde el último respaldo y cuáles ya fueron agregados al área de preparación.
 - git commit -m "..." archivo.xxx :realiza los cambios en el repositorio. 
 - git checkout ____ -:cambia al nombre de rama (branch) proporcionado en tu repositorio.  Esto creará una nueva rama si el nombre entregado no existe.
+- git checkout -b xxx : crea la rama y se cambia.
 - git branch :muestra todas las ramas de tu git y marca en cuál estás actualmente.
 - git log :muestra todos los respaldos creados en el repositorio.
 - git blame ____ :muestra quién escribió qué línea de código o, en otras palabras, a quién culpar por esa línea de código particular.
